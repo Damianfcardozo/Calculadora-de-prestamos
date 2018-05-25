@@ -1,0 +1,103 @@
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+body a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+body input {
+  text-align: right;
+}
+
+.top-margin {
+  margin-top: 25px;
+}
+
+.bold-txt {
+  font-weight: bold;
+}
+
+/* NAV BAR */
+.nav-bar {
+  background-color: #002766;
+
+  font-size: 20px;
+
+  height: 50px;
+}
+
+.nav-bar a {
+  color: #ffffff;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+}
+
+.nav-bar a:hover {
+  color: #ffffff;
+}
+/* END */
+
+/* CALCULADORA */
+.calculadora {
+  border: 1px solid #7fa1d9;
+
+  padding: 25px;
+}
+
+.calculadora label {
+  display: inline-block;
+  width: 20%;
+}
+
+.calculadora input,
+.calculadora select {
+  width: 40%;
+  margin-top: 25px;
+}
+/* END */
+
+/* BUTTONS */
+.nav-button {
+  margin: auto;
+  height: 100%;
+
+  display: inline-block;
+
+  padding-top: 10px;
+}
+
+.nav-b-selected {
+  background-color: #0044b3;
+}
+
+/* BUTTON 1 */
+.button-1 {
+  display: inline-block;
+
+  text-align: center;
+
+  background-color: #0061ff;
+
+  width: 150px;
+  height: 40px;
+
+  padding-top: 9px;
+
+  margin-left: 15px;
+}
+
+.button-1 a {
+  color: #ffffff;
+}
+
+.button-1 a:hover {
+  color: #ffffff;
+}
+/* END BUTTON-1 */
+
+/* END */

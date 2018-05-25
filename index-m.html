@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Calculo de prestamo - Ejercicio javascript">
+
+    <title>Calculo Prestamo</title>
+
+    <link rel="stylesheet" href="style-m.css">
+
+    <!-- Import BootsTrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+
+    <!-- Import JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src ="index-m.js">
+
+    </script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-12">
+        <h1>PRESTAMOS.COM</h1>
+
+        <div class="nav-bar top-margin">
+          <div class="nav-button">
+            <a href="#">INICIO</a>
+          </div>
+          <div class="nav-button nav-b-selected">
+            <a href="#">CALCULADORA DE PRESTAMOS</a>
+          </div>
+        </div>
+
+        <div class="info top-margin">
+          <h4>Cálculo de préstamos</h4>
+          <p class="bold-txt">Cálculo de Préstamos - Para el cálculo de préstamos, ésta calculadora le permite calcular la cuota mensual a pagar, asi como el total de intereses.</p>
+        </div>
+
+        <div class="calculadora top-margin">
+          <div class="title">
+            <h4>Cálculo de préstamos</h4>
+          </div>
+          <div class="input">
+            <label for="importe">Importe</label> <input id="importe" type="text" name="importe" value=""><br>
+
+            <label for="provincia">Provincia</label>
+            <select id="select-prov" name="provincia" value="">
+              <option value="" selected></option>
+            </select> <br>
+
+            <label for="t-interes">Tasa de interés</label> <input id="t-interes" type="text" name="t-interes" value="">%<br>
+          </div>
+
+          <div class="buttons top-margin">
+            <div class="button-1">
+              <a href="#" id="calcular">CALCULAR</a>
+            </div>
+            <div class="button-1">
+              <a href="#" onclick="Borrar();return false;" id="borrar">BORRAR</a>
+            </div>
+          </div>
+
+          <div class="results">
+            <label for="cuota-m">Cuota mensual</label> <input id="cuota-m" type="text" name="cuota-m" value="500" readonly><br>
+            <label for="total">Total a pagar</label> <input id="total" type="text" name="total" value="5000000" readonly>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
